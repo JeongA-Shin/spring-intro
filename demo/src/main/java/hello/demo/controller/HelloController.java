@@ -52,7 +52,7 @@ public class HelloController {
     
     static class Hello{
         private String name;
-        
+        //getter와 setter
         public String getName(){
             return name;
         }
