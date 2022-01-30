@@ -49,7 +49,7 @@ public class HelloController {
         return hello; //별도의 뷰를 거치지 않고 그냥 이 객체 그대로를 (json형식)전달함
     }
     
-    
+    //새로운 저장소 테스트
     static class Hello{
         private String name;
         //getter와 setter
