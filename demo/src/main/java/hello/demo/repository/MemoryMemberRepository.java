@@ -37,4 +37,8 @@ public class MemoryMemberRepository implements MemberRepository {
         return new ArrayList<>(store.values()); //store의 각 value(키가 아닌)들이 멤버들임. 걔를 리스트로 해줌
         //ArrayList<Integer> integers4 = new ArrayList<>(integers1); // 다른 Collection값으로 초기화
     }
+    
+    public void clearStore() {
+        store.clear();
+    }
 }
