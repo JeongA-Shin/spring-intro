@@ -2,6 +2,8 @@ package hello.demo.repository;
 //(Member)Repository는 멤버(클래스의) 객체를 저장하는 곳
 
 import hello.demo.domain.Member; //얘를 임포트해와야함
+import org.springframework.stereotype.Repository;
+
 import java.util.Optional;
 import java.util.List;
 

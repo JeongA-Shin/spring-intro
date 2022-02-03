@@ -3,13 +3,18 @@ package hello.demo.service;
 import hello.demo.domain.Member;
 import hello.demo.repository.MemberRepository;
 import hello.demo.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MemberService {
     
     private final MemberRepository memberRepository;
+    
+    @Autowired //멤버 서비스는 레포지토리와 autoWired 되어야 함
     public MemberService(MemberRepository memberRepository){
         this.memberRepository=memberRepository;
     }
