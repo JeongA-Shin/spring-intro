@@ -12,7 +12,7 @@ import java.util.Optional;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-@Repository
+//@Repository
 public class MemoryMemberRepositoryTest {
     
     MemoryMemberRepository repository=new MemoryMemberRepository();
