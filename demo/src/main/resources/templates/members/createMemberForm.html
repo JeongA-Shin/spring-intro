@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>MemberForm</title>
+</head>
+<body>
+<div class="container">
+
+    <form action="/members/new" method="post" >
+        <div class="form-group">
+            <label for="name">이름</label>
+<!--            입력칸 옆에 해당 라벨이 써져 있음-->
+            <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+        </div>
+        <button type="submit"> 등록 </button>
+<!--        form 태그 안에 등록 버튼까지 다 있는 것임-->
+    </form>
+
+</div>
+
+</body>
+</html>
